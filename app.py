@@ -33,6 +33,6 @@ def get_api():
 @app.route('/hello')
 def hi():
    return "สวัสดี" 
- 
+
 if __name__ == "__main__":
     app.run(debug=False)
